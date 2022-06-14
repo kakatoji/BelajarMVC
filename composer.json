@@ -1,0 +1,29 @@
+{
+    "name": "kakatoji/belajar-mvc",
+    "description": "belajar mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aang saputra",
+            "email": "kakatoji0@gmail.com"
+        }
+    ],
+    "require": {
+      "php":">=8"
+    },
+    
+    "require-dev": {
+      "phpunit/phpunit":"9.5.8"
+    },
+    "autoload": {
+      "psr-4":{
+        "Kakatoji\\Belajar\\MVC\\": "app"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+      "Kakatoji\\Belajar\\MVC\\": "test"
+      }
+    }
+    
+}
